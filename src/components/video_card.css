@@ -1,0 +1,50 @@
+#video_card {
+    background-color: #313030;
+    display: flex;
+    align-items: flex-start;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    flex-direction: column;
+}
+
+.video_card_thumbnail {
+    width: 15vw;
+    border-radius: 0.5em;
+}
+
+.thum-dialogue {
+    display: flex;
+    align-items: center;
+}
+.dialogues {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    text-align: start;
+    height: 12vw;
+    contain: content;
+    overflow-y: scroll;
+}
+
+a {
+    color: #8b8b8b;
+}
+
+.dialogue-link {
+    padding-top: 0.7em;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [id*="video_card"] {
+        width: 79vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="dialogues"] {
+        height: 25vh;
+    }
+}

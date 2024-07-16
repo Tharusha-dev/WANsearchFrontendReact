@@ -1,0 +1,54 @@
+.main_input {
+   
+    background-color: #313030;
+
+    height: 5vh;
+    width: 30vw;
+    border: 0;
+    font-size: 1.2em;
+    padding-left: 2em;
+  }
+
+  .loader {
+    border: 0.2em solid #f3f3f3; /* Light grey */
+    border-top: 0.2em solid #fc4c0a; /* Blue */
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading-bar {
+    display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  }
+
+  .search-bar {
+   
+    background-color: #313030;
+    display: flex;
+    border: #242424 solid 0.2em;
+    align-items: center;
+    padding: 0.2em;
+    padding-right: 1.2em;
+    padding-left: 1em;
+    
+
+    border-radius: 2em;
+  }
+
+  .search-button {
+    margin-bottom: 1.1em;
+  }
+
+

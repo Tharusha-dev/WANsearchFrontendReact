@@ -1,0 +1,24 @@
+.counts-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background-color: #313030;
+
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+}
+
+#term {
+    color: white;
+    font-weight: bold;
+}
+
+#count-samllprint{
+    font-size: 0.75em;
+}
+
+#count-samllprint a{
+   color: white
+}

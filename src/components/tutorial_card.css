@@ -1,0 +1,45 @@
+.tutorial-card {
+    background-color: #313030;
+    width: 35vh;
+    height: 16vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    bottom: 0;
+    left: 0;
+    padding: 1.5vw;
+    border-radius: 0 2vw 0 0;
+  }
+
+  .example-quotes {
+    margin-top: 0.5em;
+    color: #a3a3a3;
+  }
+
+  .small-text {
+    margin-top: 0.5em;
+
+    font-size: 0.8em;
+  }
+
+  @media only screen and (max-width: 1650px) {
+    [class*="tutorial-card"] {
+      font-size: 1vw;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    [class*="tutorial-card"] {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    [class*="tutorial-card"] {
+      margin-bottom: 10vh;
+      border-radius: 0 2vw 2vw 0;
+    }
+  }
